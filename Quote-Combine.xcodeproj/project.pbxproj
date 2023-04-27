@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		8434891429E7AFBF006F0DA9 /* Quote_CombineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434891329E7AFBF006F0DA9 /* Quote_CombineApp.swift */; };
-		8434891629E7AFBF006F0DA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434891529E7AFBF006F0DA9 /* ContentView.swift */; };
+		8434891629E7AFBF006F0DA9 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434891529E7AFBF006F0DA9 /* QuoteView.swift */; };
 		8434891829E7AFC0006F0DA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8434891729E7AFC0006F0DA9 /* Assets.xcassets */; };
 		8434891B29E7AFC0006F0DA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8434891A29E7AFC0006F0DA9 /* Preview Assets.xcassets */; };
+		8434892229E7B0F4006F0DA9 /* QuoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434892129E7B0F4006F0DA9 /* QuoteViewModel.swift */; };
+		8434892429E7B134006F0DA9 /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434892329E7B134006F0DA9 /* QuoteModel.swift */; };
+		8434892629E7BB4A006F0DA9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434892529E7BB4A006F0DA9 /* NetworkManager.swift */; };
+		84B63D4D29ED429F00C2EC4D /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B63D4C29ED429F00C2EC4D /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8434891029E7AFBF006F0DA9 /* Quote-Combine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quote-Combine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8434891329E7AFBF006F0DA9 /* Quote_CombineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote_CombineApp.swift; sourceTree = "<group>"; };
-		8434891529E7AFBF006F0DA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8434891529E7AFBF006F0DA9 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
 		8434891729E7AFC0006F0DA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8434891A29E7AFC0006F0DA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8434892129E7B0F4006F0DA9 /* QuoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewModel.swift; sourceTree = "<group>"; };
+		8434892329E7B134006F0DA9 /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
+		8434892529E7BB4A006F0DA9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		84B63D4C29ED429F00C2EC4D /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +60,13 @@
 			isa = PBXGroup;
 			children = (
 				8434891329E7AFBF006F0DA9 /* Quote_CombineApp.swift */,
-				8434891529E7AFBF006F0DA9 /* ContentView.swift */,
+				8434891529E7AFBF006F0DA9 /* QuoteView.swift */,
+				8434892129E7B0F4006F0DA9 /* QuoteViewModel.swift */,
+				8434892329E7B134006F0DA9 /* QuoteModel.swift */,
+				8434892529E7BB4A006F0DA9 /* NetworkManager.swift */,
 				8434891729E7AFC0006F0DA9 /* Assets.xcassets */,
 				8434891929E7AFC0006F0DA9 /* Preview Content */,
+				84B63D4C29ED429F00C2EC4D /* TestView.swift */,
 			);
 			path = "Quote-Combine";
 			sourceTree = "<group>";
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8434891629E7AFBF006F0DA9 /* ContentView.swift in Sources */,
+				84B63D4D29ED429F00C2EC4D /* TestView.swift in Sources */,
+				8434892229E7B0F4006F0DA9 /* QuoteViewModel.swift in Sources */,
+				8434891629E7AFBF006F0DA9 /* QuoteView.swift in Sources */,
+				8434892629E7BB4A006F0DA9 /* NetworkManager.swift in Sources */,
+				8434892429E7B134006F0DA9 /* QuoteModel.swift in Sources */,
 				8434891429E7AFBF006F0DA9 /* Quote_CombineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
